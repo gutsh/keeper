@@ -1,0 +1,47 @@
+div {
+    margin: 0;
+}
+
+#editor-window {
+    display: flow-root;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 50%;
+    height: calc(50vh + 3.4rem);
+}
+
+#editor-window-drag-area {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 50vh;
+    background-color: #dddb;
+    overflow: hidden;
+}
+
+#editor-window-controls {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 1%;
+    width: 98%;
+    justify-content: space-between;
+}
+
+.draggable {
+    overflow: auto;
+    resize: both;
+    position: inherit;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#editor-window-controls button {
+    padding: 0.2rem 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}

@@ -1,0 +1,37 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 24px;
+}
+
+body {
+    margin: 0;
+}
+
+menu-widget {
+    --buttons-per-row: 4;
+    --buttons-distance: 2%;
+    --buttons-interval: 5%;
+    --buttons-padding-v: 4px;
+    --buttons-padding-g: 2px;
+}
+
+menu-button {
+    --button-border-width: 1px;
+    --button-border-color: hotpink;
+    --button-content-height: 2rem;
+    --button-distance: var(--buttons-distance, 1rem);
+    --button-interval: var(--buttons-interval, 0.5rem);
+    --button-padding-v: var(--buttons-padding-v, 0.5rem);
+    --button-padding-g: var(--buttons-padding-v, 0.2rem);
+    --button-width: calc((100% - var(--button-interval) * var(--buttons-per-row, 1)) / var(--buttons-per-row, 1));
+    --button-height: calc(2 * var(--button-padding-v) + var(--button-content-height) + var(--button-border-width));
+    --button-margin: calc(var(--button-distance) / 2) calc(var(--button-interval) / 2);
+    --button-bg-color: white;
+}
+
+generic-button span {
+    font-weight: 300; 
+}

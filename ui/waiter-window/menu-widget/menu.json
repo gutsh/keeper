@@ -1,0 +1,90 @@
+{
+    "id": 1,
+    "name": "root",
+    "folders": [
+        {
+            "id": 2,
+            "name": "soups",
+            "folders": [],
+            "items": [
+                {
+                    "id": 101,
+                    "name": "soups"
+                },
+                {
+                    "id": 102,
+                    "name": "soups"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "porridges",
+            "folders": [],
+            "items": []
+        },
+        {
+            "id": 4,
+            "name": "meals",
+            "folders": [
+                {
+                    "id": 6,
+                    "name": "steaks",
+                    "folders": [
+                        {
+                            "id": 8,
+                            "name": "special issue",
+                            "folders": [],
+                            "items": [
+                                {
+                                    "id": 103,
+                                    "name": "you're a pig lol"
+                                }
+                            ]
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": 104,
+                            "name": "chateau briane"
+                        },
+                        {
+                            "id": 105,
+                            "name": "new-york"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "pastas",
+                    "folders": [
+                        {
+                            "id": 7,
+                            "name": "vegan",
+                            "folders": [],
+                            "items": []
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": 106,
+                            "name": "sea-delight"
+                        },
+                        {
+                            "id": 107,
+                            "name": "bologniese"
+                        }
+                    ]
+                }
+            ],
+            "items": []
+        },
+        {
+            "id": 5,
+            "name": "drinks",
+            "folders": [],
+            "items": []
+        }
+    ],
+    "items": []
+}
